@@ -1,0 +1,72 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "john.h.macleod@gmail.com",
+    "longName": "StartLine for Pebble",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/padlock_closedc.png",
+                "name": "PADLOCK",
+                "type": "png"
+            },
+            {
+                "file": "images/StartLine.png",
+                "name": "MENU_IMAGE",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_59",
+                "trackingAdjust": -2,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_50",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_47",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_64",
+                "trackingAdjust": -2,
+                "type": "font"
+            },
+            {
+                "file": "images/SL28.png",
+                "menuIcon": true,
+                "name": "SL_28",
+                "type": "png"
+            },
+            {
+                "file": "images/bwarrow_right.png",
+                "name": "BWARROW",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "StartLine",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "743c5eb7-77fb-4821-913a-5d855e2c3c84",
+    "versionLabel": "2.3",
+    "watchapp": {
+        "watchface": false
+    }
+}
